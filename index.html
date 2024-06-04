@@ -6,6 +6,54 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <h1 class="text-3xl font-bold underline">Hello world!</h1>
+    <!-- nav section -->
+    <header>
+      <nav class="container flex flex wrap items-center justify-around">
+        <div class="pl-12 flex items-center">
+          <img class="w-[70px] py-8" src="/Images/logo.png" alt="" />
+          <h2 class="font-bold text-4xl pl-4">Madicare</h2>
+        </div>
+        <div class="pr-12">
+          <ul class="flex gap-8">
+            <li class="font-bold">Home</li>
+            <li class="font-bold">About Us</li>
+            <li class="font-bold">Benefits</li>
+            <li class="font-bold">Pricing</li>
+            <li class="font-bold">Contact</li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- top banner -->
+    <section class="bg-gray-400 min-h-screen flex justify-around items-center">
+      <div class="grid grid-cols-2">
+        <div class="">
+          <h2 class="font-bold text-6xl text-[#37316d] py-12">
+            Our Passion is to <br />
+            Give you Better <br />
+            Service
+          </h2>
+          <p class="font-semibold leading-8 pb-8">
+            Your full service lab for clinical trials. Our mission is to ensure
+            the <br />
+            generation of accurate and precise findings
+          </p>
+          <button
+            class="font-bold rounded-md bg-[#0E63FF] px-5 py-3 text-white mr-8"
+          >
+            Appointment
+          </button>
+          <button
+            class="font-bold rounded-md bg-[#0E63FF] px-5 py-3 text-white"
+          >
+            About Us
+          </button>
+        </div>
+        <div class="">
+          <img src="/Images/top_banner.png" alt="" />
+        </div>
+      </div>
+    </section>
   </body>
 </html>
